@@ -1,0 +1,48 @@
+.body{
+    flex: 0.8;
+    background: linear-gradient( rgb(91, 87, 115),rgba(0,0,0,1));
+    color: white;
+    padding: 30px;
+    overflow-y: overlay;
+    height: 100vh;
+}
+.body::-webkit-scrollbar{
+    display: none;
+}
+.bodyinfo{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.bodyinfotext p{
+    flex: 1;
+}
+.bodyinfotext h2{
+    font-size: 48px;
+    margin-bottom: 10x;
+}
+.bodyinfo img{
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0,0,0,0.5);
+}
+.bodysong{
+    margin: 20px -30px;
+}
+.bodyicons{
+    display: flex;
+    align-items: center;
+}
+.bodyicons .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+.bodyshuffle{
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bodyshuffle:hover{
+    transform: scale(1.08);
+    transition: 200ms ease-in;
+}

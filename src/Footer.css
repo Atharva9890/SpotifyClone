@@ -1,0 +1,51 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 99%;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footerleft{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+.footercenter{
+    flex: 0.4;
+    color: white;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 300px;
+}
+.footerright{
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-right: 14px;
+}
+.footersonginfo{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.footergreen{
+    color: green;
+}
+.footeri:hover,
+.footergreen:hover{
+    transition: transform 0.2s ease-in;
+    transform: scale(1.2) !important;
+}
+.footerright * .MuiSlider-root{
+    color: green;
+}
